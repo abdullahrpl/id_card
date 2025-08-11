@@ -55,7 +55,7 @@ class CardScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
                       rawText(
-                        'LEO',
+                        'ABDULLAH',
                         FontWeight.w400,
                         25,
                         const Color(0xff86384A),
@@ -76,7 +76,7 @@ class CardScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 15),
                       rawText(
-                        'PARADOXX-R4',
+                        '082155048986',
                         FontWeight.w400,
                         25,
                         const Color(0xff86384A),
@@ -90,14 +90,14 @@ class CardScreen extends StatelessWidget {
                         ),
                       ),
                       rawText(
-                        'OPTICAL ID',
+                        'NUMBER',
                         FontWeight.w400,
                         15,
                         const Color(0xff86384A),
                       ),
                       const SizedBox(height: 40),
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           rawText(
@@ -114,8 +114,8 @@ class CardScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              // 💡 Perbaikan: Container untuk teks vertikal dengan garis miring
 
+              // 💡 Perbaikan: Container untuk teks vertikal dengan garis miring
             ],
           ),
         ),
