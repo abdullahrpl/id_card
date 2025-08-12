@@ -101,7 +101,7 @@ class CardScreen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           rawText(
-                            '2024\nOPTICAL',
+                            '2025\nIDN',
                             FontWeight.w600,
                             35,
                             const Color(0xff86384A),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:id_card/card%20copy.dart';
 import 'package:id_card/card.dart';
 
 void main() {
@@ -11,11 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.light(),
-      ),
-      home: const CardScreen(),
+      theme: ThemeData(colorScheme: ColorScheme.light()),
+      home: const CardScreen2(),
     );
   }
 }
-
